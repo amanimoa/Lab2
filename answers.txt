@@ -1,1 +1,38 @@
+              File: answers.txt                                  
+
 Answers go here!
+
+problem 1:
+
+in problem one the mistake the student made is that he/she
+did not assign the right raw and col and instead had two raws by mistake
+therefore to fix this mistake we just replace the second raw with col to match
+the rest. invaders[invaderRow][invaderRow] = new Warrior(); to invaders[invader$
+
+problem 2:
+
+; remove
+
+problem 3:
+
+student forgot to increameant the for loop so it was stuck.
+
+problem 4:
+
+when deleting the memory in the main
+switch between n and m
+
+problem 5:
+
+the logic was worng where there were (<) in the wrong direction. Moreover,
+I used gdp and break points to go through the function and if statements
+one by one to figure out what was wrong.
+
+
+
+
+
+
+
+
+
