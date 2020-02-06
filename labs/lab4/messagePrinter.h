@@ -1,5 +1,6 @@
 #include <string>
-
+//#include <set>
+#include <map>
 /*
 You've created a popular app that makes requests to a server. Sometimes, the server sends back error messages.
 You want to print these error messages out to the user, but only if you haven't already printed the same message in the last 10 seconds.
@@ -24,7 +25,10 @@ logger.shouldPrintMessage(11,"foo"); returns true;
 class Logger {
 public:
     /** Initialize any necessary data structures here. */
+
     Logger();
-    
+   // std::set<std::string> exist; 
+      std::map<std::string, int> exist; 
+
     bool shouldPrintMessage(int timestamp, std::string message);
 };
